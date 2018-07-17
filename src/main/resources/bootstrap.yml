@@ -1,0 +1,18 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: userService
+  cloud:
+    config:
+      #failFast: true
+      #failFast false solo para pruebas sin configService
+      failFast: true
+      uri: http://localhost:8888
+      username: hans
+      password: hans
+
+encrypt:
+  key: test
+
